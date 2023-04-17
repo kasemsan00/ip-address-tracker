@@ -18,20 +18,15 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: linear-gradient(to bottom, transparent, rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
 }
 
 @font-face {
-	src: url("../fonts/Rubik-VariableFont_wght.ttf");
+  src: url("../fonts/Rubik-VariableFont_wght.ttf");
 }
 
-*{
-	font-family: Rubik, serif;
-	font-size: 18px;
-	font-weight: 400;
+* {
+  font-family: Rubik, serif;
+  font-size: 18px;
+  font-weight: 400;
 }
