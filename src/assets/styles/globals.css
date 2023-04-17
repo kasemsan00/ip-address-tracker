@@ -25,3 +25,13 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+@font-face {
+	src: url("../fonts/Rubik-VariableFont_wght.ttf");
+}
+
+*{
+	font-family: Rubik, serif;
+	font-size: 18px;
+	font-weight: 400;
+}
